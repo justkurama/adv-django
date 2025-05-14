@@ -8,7 +8,7 @@ load_dotenv()
 SITE_ID = 1
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
-
+SOCIALACCOUNT_AUTO_SIGNUP = True
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-m%9=wo#!x^n39a-8le@qnfp*wf%&q3us#pwnp2v(%#e7@da-hp')
 DEBUG = os.getenv('DJANGO_DEBUG', 'True') == 'True'
 ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
