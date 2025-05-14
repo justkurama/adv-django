@@ -1,1 +1,1 @@
-# adv-django-mini2
+# adv-django
